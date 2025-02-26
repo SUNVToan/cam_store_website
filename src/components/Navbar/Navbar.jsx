@@ -1,6 +1,6 @@
-import React from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 
+// eslint-disable-next-line react/prop-types
 const Navbar = ({ sidebar, setSidebar }) => {
   return (
     <div className="absolute top-0 left-0 w-full py-2 text-white z-20">
